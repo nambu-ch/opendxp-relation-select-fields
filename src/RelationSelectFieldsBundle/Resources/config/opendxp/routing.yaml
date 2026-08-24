@@ -1,0 +1,7 @@
+
+_opendxp_relationselectfields_admin:
+    resource: "../../../Controller/Admin/"
+    prefix:   /admin/object-fields/relation-select
+    type:     attribute
+    options:
+        expose: true

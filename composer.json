@@ -1,0 +1,31 @@
+{
+  "name": "nambu-ch/opendxp-relation-select-fields",
+  "type": "opendxp-bundle",
+  "license": "GPL-3.0+",
+  "description": "OpenDXP 1.x Relation-Fields for DataObjects and Documents",
+  "keywords": ["opendxp", "dataobject"],
+  "homepage": "https://github.com/nambu-ch/opendxp-relation-select-fields",
+  "authors": [
+    {
+      "name": "nambu GmbH, Dominik Schnieper",
+      "email": "ds@nambu.ch",
+      "homepage": "https://www.nambu.ch/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RelationSelectFieldsBundle\\": "src/RelationSelectFieldsBundle"
+    }
+  },
+  "extra": {
+    "opendxp": {
+      "bundles": [
+        "RelationSelectFieldsBundle\\RelationSelectFieldsBundle"
+      ]
+    }
+  },
+  "require": {
+    "open-dxp/opendxp": "^1.0"
+  }
+}

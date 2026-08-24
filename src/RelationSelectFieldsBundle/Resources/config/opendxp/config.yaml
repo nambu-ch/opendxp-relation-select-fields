@@ -1,0 +1,13 @@
+
+opendxp:
+    objects:
+        class_definitions:
+            data:
+                map:
+                    manyToOneRelationSelect: \RelationSelectFieldsBundle\Model\DataObject\Data\ManyToOneRelationSelect
+                    manyToManyRelationSelect: \RelationSelectFieldsBundle\Model\DataObject\Data\ManyToManyRelationSelect
+    documents:
+        editables:
+            map:
+                relation_select: \RelationSelectFieldsBundle\Model\Document\Tag\ManyToOneRelationSelect
+                relations_select: \RelationSelectFieldsBundle\Model\Document\Tag\ManyToManyRelationSelect
